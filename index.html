@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <style>
+
+        @media only screen and (max-width: 820px) and (orientation: landscape) {
+            .myButton {
+                width: 120px !important;
+                height: 40px !important;
+                font-size: 10px !important;
+                text-align: center !important;
+            }
+         
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .content-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            width: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(./assets/img/indexbackground.jpg);
+        }
+
+        .myButton {
+            background-color: #e2d621;
+            border-radius: 28px;
+            border: 1px solid #8f8600;
+            display: inline-block;
+            cursor: pointer;
+            color: #000000;
+            font-family: Arial;
+            font-size: 19px;
+            padding: 16px 31px;
+            width: 200px;
+            height: 50px;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #2f6627;
+            margin-bottom: 5%;
+            box-shadow: 5px 5px 15px 5px #000000;
+        }
+
+        .myButton:hover {
+            background-color: #ffec5c;
+        }
+
+        .myButton:active {
+            position: relative;
+            top: 1px;
+        }
+
+
+
+        .content-wrapper .a {
+            list-style: none;
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            border: 1px solid black;
+            padding: .5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <a href="./characters.html" class="myButton">CHARACTERS</a>
+        <a href="play1.html" class="myButton">PLAY</a>
+        <a class="myButton" href="./about.html" >ABOUT US</a>
+    </div>
+</body>
+
+</html>
